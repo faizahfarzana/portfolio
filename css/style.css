@@ -67,7 +67,11 @@
 	color: #28A7E9; 
 }
 
-  
+.container
+{
+    padding: 0 20%;
+}
+
 #home
 {
     background: url('../image/banner.jpg') no-repeat;
@@ -75,11 +79,6 @@
     padding-top: 160px;
     padding-bottom: 100px;
     min-height: 400px;
-}
-
-#home .home-container
-{
-    padding: 0 20%;
 }
 
 #home h1
@@ -93,30 +92,7 @@
 {
     color: #fff;
 }
-#home .home-container span
+#home span
 {
     color: #fff;
-}
-#home .btn
-{
-    background: transparent;
-    border-radius: 2px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 20px;
-    width: 180px;
-    height: 60px;
-    padding-top: 18px;
-    -webkit-transition: all 0.4s ease-in-out;
-            transition: all 0.4s ease-in-out;
-}
-#home .btn:hover
-{
-    background: #28a7e9;
-    border-color: transparent;
-}
-.element {
-height: 60px;
-font-size: 16px;
 }
