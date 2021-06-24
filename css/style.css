@@ -111,6 +111,8 @@ img {
   width: 100%;
   padding: 0;
   background-color: #fff;
+  position: fixed;
+  z-index: 99;
 }
 
 .nav-bar {
@@ -188,9 +190,22 @@ img {
 #home span {
   color: #fff;
 }
+#about .image-container {
+  position: relative;
+  display: inline-block;
+  height: 250px;
+  width: 100%;
+}
+#about h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
+#about .image-container img {
+  display: block;
+  object-fit: contain;
+}
 #project {
   background: #202020;
-  /* padding-bottom: 80px; */
 }
 #project .col-3 {
   padding: 0px;
