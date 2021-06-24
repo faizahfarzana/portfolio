@@ -1,12 +1,26 @@
   body {
     margin: 0;
     padding: 0;
+    background-color: #383838;
+  }
+
+  .container
+  {
+      padding: 0 20%;
+  }
+
+  .center
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .nav-container {
     height: 70px;
     width: 100%;
     padding: 0;
+    background-color: #fff;
   }
   
   .nav-bar {
@@ -15,9 +29,6 @@
   
   .name {
     float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100%;
     font-weight: 500;
     font-size: 30px;
@@ -67,11 +78,6 @@
 	color: #28A7E9; 
 }
 
-.container
-{
-    padding: 0 20%;
-}
-
 #home
 {
     background: url('../image/banner.jpg') no-repeat;
@@ -96,3 +102,9 @@
 {
     color: #fff;
 }
+
+#copyright {
+    height: 70px;
+    width: 100%;
+    padding: 0;
+  }
