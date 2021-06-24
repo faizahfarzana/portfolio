@@ -12,16 +12,17 @@ body {
 
 .container {
   width: 100%;
-  display: grid;  
+  display: grid;
   padding: 0 20vw;
 }
 
 #about,
-#projects,
-#skills,
+#project,
+#service,
+#skill,
 #contact {
   padding-top: 60px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .center {
@@ -188,7 +189,8 @@ img {
   color: #fff;
 }
 #project {
-  padding-bottom: 80px;
+  background: #202020;
+  /* padding-bottom: 80px; */
 }
 #project .col-3 {
   padding: 0px;
@@ -200,17 +202,20 @@ img {
   color: #fff;
   font-weight: bold;
   padding: 10px 10px;
+  text-transform: uppercase;
 }
 #project .image-container,
- .after .btn {
+.after .btn {
   max-width: 450px;
 }
 #project .image-container {
   position: relative;
   display: inline-block;
+  height: 250px;
 }
 #project .image-container img {
   display: block;
+  object-fit: cover;
 }
 #project .image-container,
 .after {
@@ -244,6 +249,34 @@ img {
   text-decoration: none;
   line-height: 70px;
   padding: 5px 15px;
+}
+#service .col-4 {
+  padding: 40px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+#service .col-4:hover {
+  background: #505050;
+}
+#service .active {
+  background: #505050;
+  padding: 40px;
+}
+#service .fa {
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+#service h4 {
+  color: #28a7e9;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 14px;
 }
 #contact {
   background: #202020;
@@ -339,7 +372,13 @@ img {
   font-weight: 300;
 }
 @media screen and (max-width: 1000px) {
-  .col-3, .col-4, .col-6, .col-12, input[type=text], label, input[type=submit] {
+  .col-3,
+  .col-4,
+  .col-6,
+  .col-12,
+  input[type="text"],
+  label,
+  input[type="submit"] {
     width: 100%;
     margin: 0;
   }
