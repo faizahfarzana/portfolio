@@ -152,21 +152,22 @@ img {
   margin-bottom: 4px;
   display: inline;
 }
-
-.nav-bar li a {
-  color: black;
+li a {
   font-size: 16px;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   text-decoration: none;
   line-height: 70px;
   padding: 5px 15px;
+  color:black;
   opacity: 0.7;
 }
-
 .nav-bar li a:active {
   color: rgba(24, 176, 214, 1);
 }
-.nav-bar li a.current {
+.nav-bar li a .current {
+  color: rgba(24, 176, 214, 1);
+}
+.active {
   color: rgba(24, 176, 214, 1);
 }
 #home {
@@ -201,7 +202,7 @@ img {
 }
 #about .image-container img {
   display: block;
-  object-fit: contain;
+  object-fit: cover;
 }
 #project {
   background: #202020;
