@@ -6,7 +6,7 @@ var home = document.getElementById("home");
 var bgImg = 8;
 const randomIndex = getRandomIndex();
 var value =
-  "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/banner/banner" +
+  "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/banner/banner" +
   randomIndex +
   ".jpg')";
 home.style.backgroundImage = value;
@@ -27,7 +27,7 @@ setInterval(function () {
   if ((myPhotos == 0)) {
     myPhotos = 3;
   }
-  value = "./images/me/me" + myPhotos + ".jpg"
+  value = "../images/me/me" + myPhotos + ".jpg"
   myPhoto.src = value;
   console.log("index: " + myPhotos);
   console.log("image path: " + value);
