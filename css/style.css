@@ -171,7 +171,7 @@ li a {
   color: rgba(24, 176, 214, 1);
 }
 #home {
-  /* background: linear-gradient(rgba(235, 34, 34, 0.4), rgba(64, 199, 64, 0.4)); */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/banner/banner1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 160px;
