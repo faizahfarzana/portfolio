@@ -36,7 +36,7 @@ h2 {
 }
 
 h2 span {
-  color: #28a7e9;
+  color: rgba(24, 176, 214, 1);
   font-weight: bold;
 }
 
@@ -164,41 +164,40 @@ img {
 }
 
 .nav-bar li a:active {
-  color: #28a7e9;
+  color: rgba(24, 176, 214, 1);
 }
 .nav-bar li a.current {
-  color: #28a7e9;
+  color: rgba(24, 176, 214, 1);
 }
-
 #home {
-  background: url("../images/banner.jpg") no-repeat;
+  /* background: linear-gradient(rgba(235, 34, 34, 0.4), rgba(64, 199, 64, 0.4)); */
+  background-repeat: no-repeat;
   background-size: cover;
   padding-top: 160px;
   padding-bottom: 100px;
   min-height: 400px;
+  color: #fff;
+  text-align: center;
 }
-
 #home h1 {
-  font-weight: 300;
   font-size: 70px;
-  color: #28a7e9;
-  font-weight: bold;
 }
 #home h2 {
-  color: #fff;
+  font-size: 35px;
 }
 #home span {
-  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+#home .box {
+  background-color: rgba(24, 176, 214, 0.4);
+  padding-bottom: 60px;
 }
 #about .image-container {
   position: relative;
   display: inline-block;
   height: 250px;
   width: 100%;
-}
-#about h4 {
-  font-size: 25px;
-  font-weight: 500;
 }
 #about .image-container img {
   display: block;
@@ -250,11 +249,11 @@ img {
   margin-left: auto;
   margin-right: auto;
   color: #fff;
-  background: #28a7e9;
+  background: rgba(24, 176, 214, 1);
 }
 #project .image-container:hover .after {
   display: block;
-  background: #28a7e9;
+  background: rgba(24, 176, 214, 1);
   cursor: pointer;
   opacity: 0.8;
 }
@@ -288,7 +287,7 @@ img {
   text-align: center;
 }
 #service h4 {
-  color: #28a7e9;
+  color: rgba(24, 176, 214, 1);
   font-weight: 600;
   padding-top: 10px;
   padding-bottom: 14px;
@@ -307,7 +306,7 @@ img {
   display: block;
   width: 100%;
   background: transparent;
-  border: 1px solid #28a7e9;
+  border: 1px solid rgba(24, 176, 214, 1);
   border-radius: 2px;
   box-shadow: none;
   color: #fff;
@@ -326,7 +325,7 @@ img {
   height: 50px;
 }
 #contact input[type="submit"] {
-  background: #28a7e9;
+  background: rgba(24, 176, 214, 1);
   font-weight: bold;
 }
 #contact input[type="submit"]:hover {
@@ -375,7 +374,7 @@ img {
   margin-right: 10px;
 }
 .social-icon li a:hover {
-  background: #28a7e9;
+  background: rgba(24, 176, 214, 1);
   border-color: transparent;
 }
 #copyright {
